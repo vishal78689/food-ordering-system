@@ -1,3 +1,5 @@
+<?php include('../config/config.php');?>
+
 <html>
     <head>
     <title>
