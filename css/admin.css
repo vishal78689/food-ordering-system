@@ -50,6 +50,14 @@
   width: 30%;
 }
 
+.success {
+  color: #2ed573;
+}
+
+.error {
+  color: #ff4757;
+}
+
 table tr th {
   border-bottom: 1px solid black;
   padding: 1%;
@@ -104,4 +112,12 @@ table tr td {
 }
 .footer {
   background-color: red;
+}
+/* login */
+
+.login {
+  width: 30%;
+  border: 1px solid gray;
+  margin: 10% auto;
+  padding: 2%;
 }

@@ -1,4 +1,8 @@
-<?php include('../config/config.php');?>
+<?php
+ include('../config/config.php');
+  include('login-check.php');
+?>
+
 
 <html>
     <head>
@@ -29,6 +33,9 @@
                     </li>
                     <li>
                         <a href="order-manage.php">Order</a>
+                    </li>
+                    <li>
+                        <a href="logout.php">Logout</a>
                     </li>
                 </ul>
  </div>

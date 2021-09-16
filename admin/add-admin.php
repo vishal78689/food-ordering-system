@@ -7,6 +7,13 @@
  <h1> Add Admin</h1>
  <br/><br/>
 
+ 
+ <?php
+ if(isset($_SESSION['add'])){
+     echo $_SESSION['add'];
+     unset($_SESSION['add']);
+ }
+ ?>
  <form action="" method="POST">
    <table class="tbl-30">
   <tr>
@@ -38,9 +45,7 @@
 
 
 <?php include('components/footer.php');?>
-</body>
 
-</html>
 <?php
 
  //check whether button is clicked or not
@@ -64,11 +69,11 @@ $res=mysqli_query($conn,$sql) or die(mysqli_error());
  
 if($res==TRUE){
     //data inserted
-    $_SESSION['add']="Amin Added Succesfully";
+    $_SESSION['add']="<div class='success'>Admin Added Succesfully</div>";
     header('location:'.SITEURL.'admin/admin-manage.php');
 }
 else{
-    $_SESSION['add']="Amin Not Added Succesfully";
+    $_SESSION['add']="<div class='error'>Admin Not Added Succesfully</div>";
     header('location:'.SITEURL.'admin/add-admin.php');
 }
 
