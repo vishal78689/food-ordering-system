@@ -6,8 +6,10 @@
 
 </head>
 
-<body>
-    <div class="login">
+<body   style="background-image: url(../images/d.jpg);  background-size: cover;  background-repeat: no-repeat;">
+    <div class="login"   style="background: black; opacity:0.6; padding:10px; color:white;">
+    <h1 class="text-center">Sir M Visvesvaraya Institute Of Technology</h1>
+    <br>
         <h1 class="text-center">Login</h1>
         <?php
         if(isset($_SESSION['login']))
@@ -25,14 +27,14 @@
  <br/>
  <form action="" method="POST" class="text-center">
    Username <br/>
-      <input type="text" name="username" placeholder="Enter Username"/>
+      <input type="text" name="username" placeholder="Enter Username" style="width:300px; height:30px; border-radius: 25px;"/>
       <br/><br/>
  Password
  <br/>
 
-      <input type="password" name="password" placeholder="Enter Password"/>
+      <input type="password" name="password" placeholder="Enter Password" style="width:300px; height:30px; border-radius: 25px;"/>
   <br/><br/>
-   <input type="submit" name="submit" value="Login" clas="btn-primary"/>
+   <input type="submit" name="submit" value="Login" clas="btn-primary" style="width:100px; height:30px; border-radius: 25px;"/>
     
 
 

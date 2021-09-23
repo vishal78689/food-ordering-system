@@ -1,7 +1,7 @@
 <?php include('frontend/menu.php');?>
 
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search text-center">
+    <section class="food-search text-center" style="background-image: url(images/sir.jpeg);  background-size: cover;  background-repeat: no-repeat;" >
         <div class="container">
             
             <form action="<?php echo SITEURL;?>food-search.php" method="POST">
@@ -79,7 +79,7 @@
     <!-- Categories Section Ends Here -->
 
     <!-- fOOD MEnu Section Starts Here -->
-    <section class="food-menu">
+    <section class="food-menu"  style="background-image: url(images/canteen1.jpg);  background-size: cover;  background-repeat: no-repeat;">
         <div class="container">
             <h2 class="text-center">Food Menu</h2>
 

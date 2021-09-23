@@ -5,255 +5,650 @@
 */
 
 /* CSS for All */
-*{
-    margin: 0 0;
-    padding: 0 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-    padding: 1%;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
 }
-.img-responsive{
-    width: 100%;
+.img-responsive {
+  width: 100%;
 }
-.img-curve{
-    border-radius: 15px;
-}
-
-.text-right{
-    text-align: right;
-}
-.text-center{
-    text-align: center;
-}
-.text-left{
-    text-align: left;
-}
-.text-white{
-    color: white;
+.img-curve {
+  border-radius: 15px;
 }
 
-.clearfix{
-    clear: both;
-    float: none;
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-white {
+  color: white;
 }
 
-a{
-    color: #ff6b81;
-    text-decoration: none;
-}
-a:hover{
-    color: #ff4757;
+.clearfix {
+  clear: both;
+  float: none;
 }
 
-.btn{
-    padding: 1%;
-    border: none;
-    font-size: 1rem;
-    border-radius: 5px;
+a {
+  color: #ff6b81;
+  text-decoration: none;
 }
-.btn-primary{
-    background-color: #ff6b81;
-    color: white;
-    cursor: pointer;
-}
-.btn-primary:hover{
-    color: white;
-    background-color: #ff4757;
-}
-h2{
-    color: #2f3542;
-    font-size: 2rem;
-    margin-bottom: 2%;
-}
-h3{
-    font-size: 1.5rem;
-}
-.float-container{
-    position: relative;
-}
-.float-text{
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
-}
-fieldset{
-    border: 1px solid white;
-    margin: 5%;
-    padding: 3%;
-    border-radius: 5px;
+a:hover {
+  color: #ff4757;
 }
 
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #ff4757;
+}
+h2 {
+  color: #2f3542;
+  font-size: 2rem;
+  margin-bottom: 2%;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset {
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
 
 /* CSSS for navbar section */
 
-.logo{
-    width: 10%;
-    float: left;
+.logo {
+  width: 10%;
+  float: left;
 }
-.menu{
-    line-height: 60px;
+.menu {
+  line-height: 60px;
 }
-.menu ul{
-    list-style-type: none;
-}
-
-.menu ul li{
-    display: inline;
-    padding: 1%;
-    font-weight: bold;
+.menu ul {
+  list-style-type: none;
 }
 
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
 
 /* CSS for Food SEarch Section */
 
-.food-search{
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 7% 0;
+.food-search {
+  /* background-image: url(../images/bg.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
 }
 
-.food-search input[type="search"]{
-    width: 50%;
-    padding: 1%;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
+.food-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
 }
-
 
 /* CSS for Categories */
-.categories{
-    padding: 4% 0;
+.categories {
+  padding: 4% 0;
 }
 
-.box-3{
-    width: 28%;
-    float: left;
-    margin: 2%;
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
 }
-
 
 /* CSS for Food Menu */
-.food-menu{
-    background-color: #ececec;
-    padding: 4% 0;
+.food-menu {
+  background-color: #e2e2e2;
+  padding: 4% 0;
 }
-.food-menu-box{
-    width: 43%;
-    margin: 1%;
-    padding: 2%;
-    float: left;
-    background-color: white;
-    border-radius: 15px;
-}
-
-.food-menu-img{
-    width: 20%;
-    float: left;
+.food-menu-box {
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: rgb(216, 216, 216);
+  border-radius: 15px;
 }
 
-.food-menu-desc{
-    width: 70%;
-    float: left;
-    margin-left: 8%;
+.food-menu-img {
+  width: 20%;
+  float: left;
 }
 
-.food-price{
-    font-size: 1.2rem;
-    margin: 2% 0;
-}
-.food-detail{
-    font-size: 1rem;
-    color: #747d8c;
+.food-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
 }
 
+.food-price {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+.food-detail {
+  font-size: 1rem;
+  color: #747d8c;
+}
 
 /* CSS for Social */
-.social ul{
-    list-style-type: none;
+.social ul {
+  list-style-type: none;
 }
-.social ul li{
-    display: inline;
-    padding: 1%;
+.social ul li {
+  display: inline;
+  padding: 1%;
 }
 
 /* for Order Section */
-.order{
-    width: 50%;
-    margin: 0 auto;
+.order {
+  width: 50%;
+  margin: 0 auto;
 }
-.input-responsive{
-    width: 96%;
-    padding: 1%;
-    margin-bottom: 3%;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+.input-responsive {
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
 }
-.order-label{
-    margin-bottom: 1%; 
-    font-weight: bold;
+.order-label {
+  margin-bottom: 1%;
+  font-weight: bold;
 }
-
-
 
 /* CSS for Mobile Size or Smaller Screen */
 
-@media only screen and (max-width:768px){
-    .logo{
-        width: 80%;
-        float: none;
-        margin: 1% auto;
-    }
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 80%;
+    float: none;
+    margin: 1% auto;
+  }
 
-    .menu ul{
-        text-align: center;
-    }
+  .menu ul {
+    text-align: center;
+  }
 
-    .food-search input[type="search"]{
-        width: 90%;
-        padding: 2%;
-        margin-bottom: 3%;
-    }
+  .food-search input[type="search"] {
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 3%;
+  }
 
-    .btn{
-        width: 91%;
-        padding: 2%;
-    }
+  .btn {
+    width: 91%;
+    padding: 2%;
+  }
 
-    .food-search{
-        padding: 10% 0;
-    }
+  .food-search {
+    padding: 10% 0;
+  }
 
-    .categories{
-        padding: 20% 0;
-    }
-    h2{
-        margin-bottom: 10%;
-    }
-    .box-3{
-        width: 100%;
-        margin: 4% auto;
-    }
+  .categories {
+    padding: 20% 0;
+  }
+  h2 {
+    margin-bottom: 10%;
+  }
+  .box-3 {
+    width: 100%;
+    margin: 4% auto;
+  }
 
-    .food-menu{
-        padding: 20% 0;
-    }
+  .food-menu {
+    padding: 20% 0;
+  }
 
-    .food-menu-box{
-        width: 90%;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-    .social{
-        padding: 5% 0;
-    }
-    .order{
-        width: 100%;
-    }
+  .food-menu-box {
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .social {
+    padding: 5% 0;
+  }
+  .order {
+    width: 100%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap");
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-flex-row li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  font-family: "Big Shoulders Text", cursive;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.nav-flex-row li a:hover {
+  background: #e7e7e7;
+}
+
+.section-intro {
+  height: 820px;
+  background-image: url(img/foddiee.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-intro h1 {
+  text-align: center;
+  color: #000;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.section-intro header {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-book-wrapper {
+  flex: 1;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
+
+.link-to-book {
+  color: #ffffff;
+  display: block;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+  background-color: #ffffff;
+  color: #95999e;
+  text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 20px;
+}
+
+.btn.btn-primary {
+  font-family: "Big Shoulders Text", cursive;
+  color: #ffffff;
+  background-color: #95999e;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border: 0;
+}
+
+.btn.btn-primary:hover {
+  background-color: #747474;
+}
+.opening-time,
+.contact-address {
+  flex: 1;
+  margin: 30px 20px;
+  font-size: 1.2em;
+}
+
+.form-group p {
+  font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+  display: block;
+}
+
+@media (min-width: 577px) and (max-width: 800px) {
+  .section-intro {
+    height: 500px;
+  }
+
+  .about-section p,
+  .about-section h3 {
+    font-size: 20px;
+  }
+
+  .carousel-inner {
+    height: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-intro {
+    height: 300px;
+  }
+
+  .about-section {
+    padding: 30px;
+  }
+
+  .section-intro h1 {
+    font-size: 2em;
+  }
+
+  .about-section p,
+  .about-section h3 {
+    font-size: 15px;
+  }
+
+  .carousel-inner {
+    height: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-flex h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .form-group p {
+    font-size: 15px;
+  }
+
+  .opening-time p span,
+  .contact-address p span {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* ---------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100, 300, 400, 500, 600, 700, 800, 900&display=swap");
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-flex-row li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+  font-family: "Big Shoulders Text", cursive;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.nav-flex-row li a:hover {
+  background: #e7e7e7;
+}
+
+.section-intro {
+  height: 820px;
+  background-image: url(img/foddiee.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-intro h1 {
+  text-align: center;
+  color: #000;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.section-intro header {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-to-book-wrapper {
+  flex: 1;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3c0;
+  padding: 50px 30px;
+}
+
+.link-to-book {
+  color: #ffffff;
+  display: block;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+  background-color: #ffffff;
+  color: #95999e;
+  text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+.carousel-inner {
+  height: 700px;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 30px 20px;
+}
+
+.btn.btn-primary {
+  font-family: "Big Shoulders Text", cursive;
+  color: #ffffff;
+  background-color: #95999e;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+  border: 0;
+}
+
+.btn.btn-primary:hover {
+  background-color: #747474;
+}
+.opening-time,
+.contact-address {
+  flex: 1;
+  margin: 30px 20px;
+  font-size: 1.2em;
+}
+
+.form-group p {
+  font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-address p span {
+  display: block;
+}
+
+@media (min-width: 577px) and (max-width: 800px) {
+  .section-intro {
+    height: 500px;
+  }
+
+  .about-section p,
+  .about-section h3 {
+    font-size: 20px;
+  }
+
+  .carousel-inner {
+    height: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-intro {
+    height: 300px;
+  }
+
+  .about-section {
+    padding: 30px;
+  }
+
+  .section-intro h1 {
+    font-size: 2em;
+  }
+
+  .about-section p,
+  .about-section h3 {
+    font-size: 15px;
+  }
+
+  .carousel-inner {
+    height: auto;
+  }
+
+  .row-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-flex h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .form-group p {
+    font-size: 15px;
+  }
+
+  .opening-time p span,
+  .contact-address p span {
+    font-size: 15px;
+    text-align: center;
+  }
 }

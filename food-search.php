@@ -1,10 +1,10 @@
 <?php include('frontend/menu.php');?>
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search text-center">
+    <section class="food-search text-center"  style="background-image: url(images/sir.jpeg);  background-size: cover;  background-repeat: no-repeat;">
         <div class="container">
             <?php
 
-           $search=$_POST['search'];
+        //    $search=$_POST['search'];
               $search=mysqli_real_escape_string($conn,$_POST['search']);
             ?>
             <h2>Foods on Your Search <a href="#" class="text-white">"<?php echo $search;?>"</a></h2>

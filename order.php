@@ -22,15 +22,14 @@
        header('location:'.SITEURL);
    }
 
-
 ?>
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search">
+    <section class="food-search"  style="background-image: url(images/d.jpg);  background-size: cover;  background-repeat: no-repeat;">
         <div class="container">
             
             <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
 
-            <form action="" class="order" Method="POST">
+            <form action="" class="order" Method="POST"  style="background: black; opacity:0.6; padding:10px; color:white;">
                 <fieldset>
                     <legend>Selected Food</legend>
 
@@ -67,16 +66,25 @@
                 <fieldset>
                     <legend>Delivery Details</legend>
                     <div class="order-label">Full Name</div>
-                    <input type="text" name="full-name" placeholder="E.g. Vijay Thapa" class="input-responsive" required>
+                    <input type="text" name="full-name" placeholder="E.g. Vishal Thakur" class="input-responsive" required>
 
                     <div class="order-label">Phone Number</div>
                     <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
 
-                    <div class="order-label">Email</div>
-                    <input type="email" name="email" placeholder="E.g. hi@vijaythapa.com" class="input-responsive" required>
-
-                    <div class="order-label">Address</div>
-                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+                    <div class="order-label">USN</div>
+                    <input type="email" name="email" placeholder="E.g. 1MV18CS124" class="input-responsive" required>
+                    <div class="order-label">PickUp Time</div>
+                    <br>
+                    <!-- <label for="appt">Choose a time for PickUp: </label>
+                    <br> -->
+                   <input type="time" id="appt" name="appt" min="09:00" max="18:00"  placeholder="Choose a time for Pick up"  class="input-responsive" required>
+                   <br>
+                   
+                   <label for="appt">College hours are 9am to 4pm </label>
+                    <br>
+                    <br>
+                    <div class="order-label">Special Instruction</div>
+                    <textarea name="address" rows="10" placeholder=" healthy food; Low fat cooking; Retaining the nutrients; Cutting down salt; Herbs; Sandwich suggestions ..." class="input-responsive" required></textarea>
 
                     <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
                 </fieldset>

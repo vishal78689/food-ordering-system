@@ -9,17 +9,20 @@
 
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
     <!-- Navbar Section Starts Here -->
-    <section class="navbar">
+    <section class="navbar" style="background: black;">
+   
+   
         <div class="container">
             <div class="logo">
                 <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
-                </a>
-            </div>
+                    <img src="images/resizelogomvit.jpg" alt="Restaurant Logo" class="img-responsive"  style="border-radius: 50%; padding-top:4px;">
+                </a>           
+</div>
 
             <div class="menu text-right">
                 <ul>
@@ -32,13 +35,11 @@
                     <li>
                         <a href="<?php echo SITEURL;?>foods.php">Foods</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
                 </ul>
             </div>
 
             <div class="clearfix"></div>
         </div>
+        <marquee behavior="scroll" direction="right" scrollamount="20"> <h1 style="color: white;">Sir M Visvesvaraya Institute Of Technology College Canteen </h1></marquee>
     </section>
     <!-- Navbar Section Ends Here -->

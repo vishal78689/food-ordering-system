@@ -18,10 +18,10 @@
 ?>
 
     <!-- fOOD sEARCH Section Starts Here -->
-    <section class="food-search text-center">
+    <section class="food-search text-center" style="background-image: url(images/sir.jpeg);  background-size: cover;  background-repeat: no-repeat;">
         <div class="container">
             
-            <h2>Foods on <a href="#" class="text-white">"<?php echo $category_title;?>"</a></h2>
+            <h2 style="color: black;">Foods on <a href="#" class="text-white">"<?php echo $category_title;?>"</a></h2>
 
         </div>
     </section>
